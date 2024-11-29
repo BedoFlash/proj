@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Document</title>
-</head>
-<body>
-    <img src="./WhatsApp-Image-2024-11-08-at-23.43.04_806f7b4f.PNG" width="250" alt="">
-<br>
-<div class="login-container">
-    <h2>تسجيل الدخول</h2>
-    <form action="/login" method="post">
-        <input type="text" class="input-field" name="username" placeholder="اسم المستخدم" required>
-        <input type="password" class="input-field" name="password" placeholder="كلمة المرور" required>
-        <label for="role">اختر الدور:</label>
-        <select id="role" name="role" required>
-            <option value="user">مستخدم عادي</option>
-            <option value="admin">مشرف</option>
-        </select>
+  </head>
+  <body>
+    <img
+      src="./WhatsApp-Image-2024-11-08-at-23.43.04_806f7b4f.PNG"
+      width="250"
+      alt=""
+    />
+    <br />
+    <div class="login-container">
+      <h2>تسجيل الدخول</h2>
+      <form action="/login" method="post">
+        <input
+          type="text"
+          class="input-field"
+          name="username"
+          placeholder="اسم المستخدم"
+          required
+        />
+        <input
+          type="password"
+          class="input-field"
+          name="password"
+          placeholder="كلمة المرور"
+          required
+        />
         <button type="submit" class="login-btn">دخول</button>
-    </form>
-    <div class="links">
-        <a href="./forgetpas.html">نسيت كلمة المرور؟</a> | 
+      </form>
+      <div class="links">
+        <a href="./forgetpas.html">نسيت كلمة المرور؟</a> |
         <a href="./sing up.html">تسجيل حساب جديد</a>
+      </div>
     </div>
-</div>
-
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
