@@ -22,8 +22,8 @@ loginForm.addEventListener('submit', (e) => {
     if (userFound) {
         // إذا كان المستخدم موجودًا
         alert('تم تسجيل الدخول بنجاح!');
-        // قم بتوجيه المستخدم إلى صفحة أخرى (مثال)
-        window.location.href = './dashboard.html';
+        // قم بتوجيه المستخدم إلى الرابط المطلوب
+        window.location.href = 'https://egyptlaptop.com/ar';
     } else {
         // إذا كانت البيانات غير صحيحة
         alert('اسم المستخدم أو كلمة المرور غير صحيحة.');
